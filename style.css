@@ -1,0 +1,147 @@
+@charset "UTF-8";
+* {
+    border: none;
+}
+:root {
+    --cor0: #c5ebd6;
+    --cor1: #83E1AD;
+    --cor2: #3DDC84;
+    --cor3: #2FA866;
+    --cor4: #1A5C37;
+    --cor5: #063d13;
+    --fonte0: Arial, Helvetica, sans-serif;
+    --fonte1: 'bebas Neue', cursive;
+    --fonte2: 'Android' sans-serif;
+}
+body {
+    font-family: var(--fonte0);
+    color: var(--cor0);
+    background-color: var(--cor1);
+    margin: 0px;
+}
+p {
+    line-height: 1.2 ;
+}
+ul {
+    list-style-type: '\2714\0020\0020';
+    columns: 2;
+    list-style-position: inside;
+}
+
+div.video {
+    position: relative;
+    background-color: var(--cor4);
+    height: 0px;
+    margin-left: -1px;
+    margin-right: -1px;
+    margin-bottom: 15px;
+    padding-bottom: 59%;
+}
+div.video >iframe {
+    position: absolute;
+    top: 5% ;
+    left: 5% ;
+    width: 90% ;
+    height: 90% ;
+}
+
+header{
+    background-image: 
+    linear-gradient(180deg, #3DDC84, #2FA866, #1A5C37  );
+    width: auto;
+    padding: 45px;
+    box-shadow: 0px 1px 5px black;
+}
+
+header > h1 {
+    font-family: var(--fonte0);
+    color: white;
+    text-align: center;
+    text-shadow: 2px 3px 4px black;
+    margin: 0;
+}
+header > p {
+    text-shadow: 2px 1px 3px black;
+    text-align: center;
+    line-height: 2;
+}
+.a {
+    color: white;
+}
+a {
+    text-decoration: none;
+    margin-left: 10px ;
+    
+}
+a:hover {
+ background-image: linear-gradient(360deg,#83E1AD, #c5ebd6 );
+ padding: 5px;
+ border-radius: 5px 5px;
+ color: #063d13;
+}
+nav {
+    position: absolute;
+   margin-top: 15px;
+   margin-left: -50px;
+}
+
+main {
+    background-color: white;
+    color: black;
+    width: auto;
+    margin: auto;
+    margin-top: -17px;
+    margin-left: 9%;
+    margin-right: 9%;
+    box-shadow: 0px 1px 5px;
+    border-radius: 5px;
+}
+main h1 {
+    color: #063d13;
+    padding: 5px;
+    margin-left: 20px;
+    font-family: 'IDroid';
+}
+.h1_article {
+    background-image: linear-gradient(10deg,#b2f5d0 , #ffffff);
+}
+main h2 {
+    margin-left: 20px;
+}
+
+main p {
+    margin-left: 20px;
+    text-indent: 20px;
+}
+.article02 {
+    width: auto;
+    background-color: var(--cor1);
+    margin: 20px;
+    border-radius: 5px;
+}
+.article02 div {
+    color: white;
+    font-size: 12px;
+    text-shadow: 1px 1px 1px black;
+    background-color: var(--cor2);
+    border-radius: 5px 5px 0px 0px;
+    padding: 0.1px 0px 1px 0px;
+}
+.article_img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+
+}
+.img_bugdroid {
+    display: block;
+    margin: 0 auto;
+}
+footer {
+    color: white;
+    text-align: center;
+    background-color: var(--cor5);
+    padding: 5px;
+}
+
+
